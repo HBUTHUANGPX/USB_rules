@@ -1,0 +1,5 @@
+KERNEL=="ttyACM0", ATTRS{idProduct}=="ffff", MODE:="0777", GROUP:="dialout",  SYMLINK+="ttyUSB0"  
+KERNEL=="ttyACM1", ATTRS{idProduct}=="ffff", MODE:="0777", GROUP:="dialout",  SYMLINK+="ttyUSB1"
+KERNEL=="ttyACM2", ATTRS{idProduct}=="ffff", MODE:="0777", GROUP:="dialout",  SYMLINK+="ttyUSB2"
+KERNEL=="ttyACM3", ATTRS{idProduct}=="ffff", MODE:="0777", GROUP:="dialout",  SYMLINK+="ttyUSB3"
+      
